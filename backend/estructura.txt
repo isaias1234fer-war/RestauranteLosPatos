@@ -1,0 +1,422 @@
+Listado de rutas de carpetas
+El número de serie del volumen es C09D-6450
+D:.
+¦   .gitattributes
+¦   .gitignore
+¦   auth.py
+¦   build.gradle
+¦   database.py
+¦   email_service.py
+¦   estructura.txt
+¦   gradlew
+¦   gradlew.bat
+¦   HELP.md
+¦   main.py
+¦   models.py
+¦   predicts_pipeline.py
+¦   requirements.txt
+¦   schemas.py
+¦   settings.gradle
+¦   __init__.py
+¦   
++---.gradle
+¦   ¦   file-system.probe
+¦   ¦   
+¦   +---9.4.1
+¦   ¦   ¦   gc.properties
+¦   ¦   ¦   
+¦   ¦   +---checksums
+¦   ¦   ¦       checksums.lock
+¦   ¦   ¦       md5-checksums.bin
+¦   ¦   ¦       sha1-checksums.bin
+¦   ¦   ¦       
+¦   ¦   +---executionHistory
+¦   ¦   ¦       executionHistory.bin
+¦   ¦   ¦       executionHistory.lock
+¦   ¦   ¦       
+¦   ¦   +---expanded
+¦   ¦   +---fileChanges
+¦   ¦   ¦       last-build.bin
+¦   ¦   ¦       
+¦   ¦   +---fileHashes
+¦   ¦   ¦       fileHashes.bin
+¦   ¦   ¦       fileHashes.lock
+¦   ¦   ¦       resourceHashesCache.bin
+¦   ¦   ¦       
+¦   ¦   +---vcsMetadata
+¦   +---buildOutputCleanup
+¦   ¦       buildOutputCleanup.lock
+¦   ¦       cache.properties
+¦   ¦       outputFiles.bin
+¦   ¦       
+¦   +---vcs-1
+¦           gc.properties
+¦           
++---bin
+¦   +---default
+¦   +---generated-sources
+¦   ¦   +---annotations
+¦   +---generated-test-sources
+¦   ¦   +---annotations
+¦   +---main
+¦   ¦   ¦   application.properties
+¦   ¦   ¦   
+¦   ¦   +---com
+¦   ¦   ¦   +---los_patos
+¦   ¦   ¦       +---restaurant
+¦   ¦   ¦           ¦   RestaurantApplication.class
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---config
+¦   ¦   ¦           ¦       BCryptConfig.class
+¦   ¦   ¦           ¦       WebConfig.class
+¦   ¦   ¦           ¦       
+¦   ¦   ¦           +---controller
+¦   ¦   ¦           ¦       AnaliticaController.class
+¦   ¦   ¦           ¦       AuthController$MapResponse.class
+¦   ¦   ¦           ¦       AuthController$UsuarioLoginDto.class
+¦   ¦   ¦           ¦       AuthController$UsuarioRegisterDto.class
+¦   ¦   ¦           ¦       AuthController.class
+¦   ¦   ¦           ¦       CatalogoController$ProductoDto.class
+¦   ¦   ¦           ¦       CatalogoController.class
+¦   ¦   ¦           ¦       ClienteController.class
+¦   ¦   ¦           ¦       EmpleadoController.class
+¦   ¦   ¦           ¦       InventarioController$MovimientoInventarioDto.class
+¦   ¦   ¦           ¦       InventarioController.class
+¦   ¦   ¦           ¦       MesaController.class
+¦   ¦   ¦           ¦       PredictsProxyController.class
+¦   ¦   ¦           ¦       ReservaController$ReservaDto.class
+¦   ¦   ¦           ¦       ReservaController.class
+¦   ¦   ¦           ¦       VentaController$DetalleCocinaUpdateDto.class
+¦   ¦   ¦           ¦       VentaController$VentaCreateDto.class
+¦   ¦   ¦           ¦       VentaController$VentaDetalleCreateDto.class
+¦   ¦   ¦           ¦       VentaController.class
+¦   ¦   ¦           ¦       
+¦   ¦   ¦           +---model
+¦   ¦   ¦           ¦   ¦   Cliente.class
+¦   ¦   ¦           ¦   ¦   Empleado.class
+¦   ¦   ¦           ¦   ¦   EstadoCocina.class
+¦   ¦   ¦           ¦   ¦   Mesa.class
+¦   ¦   ¦           ¦   ¦   MovimientoInventario.class
+¦   ¦   ¦           ¦   ¦   Producto.class
+¦   ¦   ¦           ¦   ¦   Proveedor.class
+¦   ¦   ¦           ¦   ¦   Reserva.class
+¦   ¦   ¦           ¦   ¦   Usuario.class
+¦   ¦   ¦           ¦   ¦   VentaDetalle.class
+¦   ¦   ¦           ¦   ¦   VentaEncabezado.class
+¦   ¦   ¦           ¦   ¦   
+¦   ¦   ¦           ¦   +---analytics
+¦   ¦   ¦           ¦           DimCliente.class
+¦   ¦   ¦           ¦           DimEmpleado.class
+¦   ¦   ¦           ¦           DimMesa.class
+¦   ¦   ¦           ¦           DimProducto.class
+¦   ¦   ¦           ¦           DimProveedor.class
+¦   ¦   ¦           ¦           DimTiempo.class
+¦   ¦   ¦           ¦           FactInventario.class
+¦   ¦   ¦           ¦           FactReserva.class
+¦   ¦   ¦           ¦           FactVenta.class
+¦   ¦   ¦           ¦           
+¦   ¦   ¦           +---repository
+¦   ¦   ¦           ¦   ¦   ClienteRepository.class
+¦   ¦   ¦           ¦   ¦   EmpleadoRepository.class
+¦   ¦   ¦           ¦   ¦   MesaRepository.class
+¦   ¦   ¦           ¦   ¦   MovimientoInventarioRepository.class
+¦   ¦   ¦           ¦   ¦   ProductoRepository.class
+¦   ¦   ¦           ¦   ¦   ProveedorRepository.class
+¦   ¦   ¦           ¦   ¦   ReservaRepository.class
+¦   ¦   ¦           ¦   ¦   UsuarioRepository.class
+¦   ¦   ¦           ¦   ¦   VentaDetalleRepository.class
+¦   ¦   ¦           ¦   ¦   VentaEncabezadoRepository.class
+¦   ¦   ¦           ¦   ¦   
+¦   ¦   ¦           ¦   +---analytics
+¦   ¦   ¦           ¦           DimClienteRepository.class
+¦   ¦   ¦           ¦           DimEmpleadoRepository.class
+¦   ¦   ¦           ¦           DimMesaRepository.class
+¦   ¦   ¦           ¦           DimProductoRepository.class
+¦   ¦   ¦           ¦           DimProveedorRepository.class
+¦   ¦   ¦           ¦           DimTiempoRepository.class
+¦   ¦   ¦           ¦           FactInventarioRepository.class
+¦   ¦   ¦           ¦           FactReservaRepository.class
+¦   ¦   ¦           ¦           FactVentaRepository.class
+¦   ¦   ¦           ¦           
+¦   ¦   ¦           +---service
+¦   ¦   ¦                   AnaliticaService.class
+¦   ¦   ¦                   EmailService.class
+¦   ¦   ¦                   PdfGeneratorService.class
+¦   ¦   ¦                   
+¦   ¦   +---templates
+¦   +---test
+¦       +---com
+¦           +---los_patos
+¦               +---restaurant
+¦                       RestaurantApplicationTests.class
+¦                       
++---build
+¦   ¦   resolvedMainClassName
+¦   ¦   
+¦   +---classes
+¦   ¦   +---java
+¦   ¦       +---main
+¦   ¦       ¦   +---com
+¦   ¦       ¦       +---los_patos
+¦   ¦       ¦           +---restaurant
+¦   ¦       ¦               ¦   RestaurantApplication.class
+¦   ¦       ¦               ¦   
+¦   ¦       ¦               +---config
+¦   ¦       ¦               ¦       BCryptConfig.class
+¦   ¦       ¦               ¦       WebConfig.class
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               +---controller
+¦   ¦       ¦               ¦       AnaliticaController.class
+¦   ¦       ¦               ¦       AuthController$MapResponse.class
+¦   ¦       ¦               ¦       AuthController$UsuarioLoginDto.class
+¦   ¦       ¦               ¦       AuthController$UsuarioRegisterDto.class
+¦   ¦       ¦               ¦       AuthController.class
+¦   ¦       ¦               ¦       CatalogoController$ProductoDto.class
+¦   ¦       ¦               ¦       CatalogoController.class
+¦   ¦       ¦               ¦       ClienteController.class
+¦   ¦       ¦               ¦       EmpleadoController.class
+¦   ¦       ¦               ¦       InventarioController$MovimientoInventarioDto.class
+¦   ¦       ¦               ¦       InventarioController.class
+¦   ¦       ¦               ¦       MesaController.class
+¦   ¦       ¦               ¦       PredictsProxyController.class
+¦   ¦       ¦               ¦       ReservaController$ReservaDto.class
+¦   ¦       ¦               ¦       ReservaController.class
+¦   ¦       ¦               ¦       VentaController$DetalleCocinaUpdateDto.class
+¦   ¦       ¦               ¦       VentaController$VentaCreateDto.class
+¦   ¦       ¦               ¦       VentaController$VentaDetalleCreateDto.class
+¦   ¦       ¦               ¦       VentaController.class
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               +---model
+¦   ¦       ¦               ¦   ¦   Cliente.class
+¦   ¦       ¦               ¦   ¦   Empleado.class
+¦   ¦       ¦               ¦   ¦   EstadoCocina.class
+¦   ¦       ¦               ¦   ¦   Mesa.class
+¦   ¦       ¦               ¦   ¦   MovimientoInventario.class
+¦   ¦       ¦               ¦   ¦   Producto.class
+¦   ¦       ¦               ¦   ¦   Proveedor.class
+¦   ¦       ¦               ¦   ¦   Reserva.class
+¦   ¦       ¦               ¦   ¦   Usuario.class
+¦   ¦       ¦               ¦   ¦   VentaDetalle.class
+¦   ¦       ¦               ¦   ¦   VentaEncabezado.class
+¦   ¦       ¦               ¦   ¦   
+¦   ¦       ¦               ¦   +---analytics
+¦   ¦       ¦               ¦           DimCliente.class
+¦   ¦       ¦               ¦           DimEmpleado.class
+¦   ¦       ¦               ¦           DimMesa.class
+¦   ¦       ¦               ¦           DimProducto.class
+¦   ¦       ¦               ¦           DimProveedor.class
+¦   ¦       ¦               ¦           DimTiempo.class
+¦   ¦       ¦               ¦           FactInventario.class
+¦   ¦       ¦               ¦           FactReserva.class
+¦   ¦       ¦               ¦           FactVenta.class
+¦   ¦       ¦               ¦           
+¦   ¦       ¦               +---repository
+¦   ¦       ¦               ¦   ¦   ClienteRepository.class
+¦   ¦       ¦               ¦   ¦   EmpleadoRepository.class
+¦   ¦       ¦               ¦   ¦   MesaRepository.class
+¦   ¦       ¦               ¦   ¦   MovimientoInventarioRepository.class
+¦   ¦       ¦               ¦   ¦   ProductoRepository.class
+¦   ¦       ¦               ¦   ¦   ProveedorRepository.class
+¦   ¦       ¦               ¦   ¦   ReservaRepository.class
+¦   ¦       ¦               ¦   ¦   UsuarioRepository.class
+¦   ¦       ¦               ¦   ¦   VentaDetalleRepository.class
+¦   ¦       ¦               ¦   ¦   VentaEncabezadoRepository.class
+¦   ¦       ¦               ¦   ¦   
+¦   ¦       ¦               ¦   +---analytics
+¦   ¦       ¦               ¦           DimClienteRepository.class
+¦   ¦       ¦               ¦           DimEmpleadoRepository.class
+¦   ¦       ¦               ¦           DimMesaRepository.class
+¦   ¦       ¦               ¦           DimProductoRepository.class
+¦   ¦       ¦               ¦           DimProveedorRepository.class
+¦   ¦       ¦               ¦           DimTiempoRepository.class
+¦   ¦       ¦               ¦           FactInventarioRepository.class
+¦   ¦       ¦               ¦           FactReservaRepository.class
+¦   ¦       ¦               ¦           FactVentaRepository.class
+¦   ¦       ¦               ¦           
+¦   ¦       ¦               +---service
+¦   ¦       ¦                       AnaliticaService.class
+¦   ¦       ¦                       EmailService.class
+¦   ¦       ¦                       PdfGeneratorService.class
+¦   ¦       ¦                       
+¦   ¦       +---test
+¦   ¦           +---com
+¦   ¦               +---los_patos
+¦   ¦                   +---restaurant
+¦   ¦                           RestaurantApplicationTests.class
+¦   ¦                           
+¦   +---generated
+¦   ¦   +---sources
+¦   ¦       +---annotationProcessor
+¦   ¦       ¦   +---java
+¦   ¦       ¦       +---main
+¦   ¦       ¦       +---test
+¦   ¦       +---headers
+¦   ¦           +---java
+¦   ¦               +---main
+¦   ¦               +---test
+¦   +---reports
+¦   ¦   +---problems
+¦   ¦           problems-report.html
+¦   ¦           
+¦   +---resources
+¦   ¦   +---main
+¦   ¦   ¦   ¦   application.properties
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---static
+¦   ¦   ¦   +---templates
+¦   ¦   +---test
+¦   +---tmp
+¦       +---compileJava
+¦       ¦   ¦   previous-compilation-data.bin
+¦       ¦   ¦   
+¦       ¦   +---compileTransaction
+¦       ¦       +---backup-dir
+¦       ¦       +---stash-dir
+¦       ¦               PredictsProxyController.class.uniqueId0
+¦       ¦               
+¦       +---compileTestJava
+¦               previous-compilation-data.bin
+¦               
++---gradle
+¦   +---wrapper
+¦           gradle-wrapper.jar
+¦           gradle-wrapper.properties
+¦           
++---sent_emails
+¦       rgiancarloc_ac@hotmail.com_Ticket_1780344730157.txt
+¦       rgiancarloc_ac@hotmail.com_Ticket_1780344730157_ticket_61.pdf
+¦       rgiancarloc_ac@hotmail.com_Ticket_1780345511506.txt
+¦       rgiancarloc_ac@hotmail.com_Ticket_1780345511506_ticket_62.pdf
+¦       rgiancarloc_ac@hotmail.com_Ticket_1780346433037.txt
+¦       rgiancarloc_ac@hotmail.com_Ticket_1780346433037_ticket_63.pdf
+¦       rgiancarloc_ac@hotmail.com_Ticket_1781560278739.txt
+¦       rgiancarloc_ac@hotmail.com_Ticket_1781560278739_ticket_67.pdf
+¦       rgiancarloc_ac@hotmail.com_Ticket_1781560604347.txt
+¦       rgiancarloc_ac@hotmail.com_Ticket_1781560604347_ticket_68.pdf
+¦       rgiancarloc_ac@hotmail.com_Ticket_1783978650875.txt
+¦       rgiancarloc_ac@hotmail.com_Ticket_1783978650875_ticket_71.pdf
+¦       sofia.rojas@gmail.com_Ticket_1781561594320.txt
+¦       sofia.rojas@gmail.com_Ticket_1781561594320_ticket_69.pdf
+¦       valeria.navarro@yahoo.com_Ticket_1781561643779.txt
+¦       valeria.navarro@yahoo.com_Ticket_1781561643779_ticket_70.pdf
+¦       
++---src
+¦   +---main
+¦   ¦   +---java
+¦   ¦   ¦   +---com
+¦   ¦   ¦       +---los_patos
+¦   ¦   ¦           +---restaurant
+¦   ¦   ¦               ¦   RestaurantApplication.java
+¦   ¦   ¦               ¦   
+¦   ¦   ¦               +---config
+¦   ¦   ¦               ¦       BCryptConfig.java
+¦   ¦   ¦               ¦       WebConfig.java
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---controller
+¦   ¦   ¦               ¦       AnaliticaController.java
+¦   ¦   ¦               ¦       AuthController.java
+¦   ¦   ¦               ¦       CatalogoController.java
+¦   ¦   ¦               ¦       ClienteController.java
+¦   ¦   ¦               ¦       EmpleadoController.java
+¦   ¦   ¦               ¦       InventarioController.java
+¦   ¦   ¦               ¦       MesaController.java
+¦   ¦   ¦               ¦       PredictsProxyController.java
+¦   ¦   ¦               ¦       ReservaController.java
+¦   ¦   ¦               ¦       VentaController.java
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---model
+¦   ¦   ¦               ¦   ¦   Cliente.java
+¦   ¦   ¦               ¦   ¦   Empleado.java
+¦   ¦   ¦               ¦   ¦   EstadoCocina.java
+¦   ¦   ¦               ¦   ¦   Mesa.java
+¦   ¦   ¦               ¦   ¦   MovimientoInventario.java
+¦   ¦   ¦               ¦   ¦   Producto.java
+¦   ¦   ¦               ¦   ¦   Proveedor.java
+¦   ¦   ¦               ¦   ¦   Reserva.java
+¦   ¦   ¦               ¦   ¦   Usuario.java
+¦   ¦   ¦               ¦   ¦   VentaDetalle.java
+¦   ¦   ¦               ¦   ¦   VentaEncabezado.java
+¦   ¦   ¦               ¦   ¦   
+¦   ¦   ¦               ¦   +---analytics
+¦   ¦   ¦               ¦           DimCliente.java
+¦   ¦   ¦               ¦           DimEmpleado.java
+¦   ¦   ¦               ¦           DimMesa.java
+¦   ¦   ¦               ¦           DimProducto.java
+¦   ¦   ¦               ¦           DimProveedor.java
+¦   ¦   ¦               ¦           DimTiempo.java
+¦   ¦   ¦               ¦           FactInventario.java
+¦   ¦   ¦               ¦           FactReserva.java
+¦   ¦   ¦               ¦           FactVenta.java
+¦   ¦   ¦               ¦           
+¦   ¦   ¦               +---repository
+¦   ¦   ¦               ¦   ¦   ClienteRepository.java
+¦   ¦   ¦               ¦   ¦   EmpleadoRepository.java
+¦   ¦   ¦               ¦   ¦   MesaRepository.java
+¦   ¦   ¦               ¦   ¦   MovimientoInventarioRepository.java
+¦   ¦   ¦               ¦   ¦   ProductoRepository.java
+¦   ¦   ¦               ¦   ¦   ProveedorRepository.java
+¦   ¦   ¦               ¦   ¦   ReservaRepository.java
+¦   ¦   ¦               ¦   ¦   UsuarioRepository.java
+¦   ¦   ¦               ¦   ¦   VentaDetalleRepository.java
+¦   ¦   ¦               ¦   ¦   VentaEncabezadoRepository.java
+¦   ¦   ¦               ¦   ¦   
+¦   ¦   ¦               ¦   +---analytics
+¦   ¦   ¦               ¦           DimClienteRepository.java
+¦   ¦   ¦               ¦           DimEmpleadoRepository.java
+¦   ¦   ¦               ¦           DimMesaRepository.java
+¦   ¦   ¦               ¦           DimProductoRepository.java
+¦   ¦   ¦               ¦           DimProveedorRepository.java
+¦   ¦   ¦               ¦           DimTiempoRepository.java
+¦   ¦   ¦               ¦           FactInventarioRepository.java
+¦   ¦   ¦               ¦           FactReservaRepository.java
+¦   ¦   ¦               ¦           FactVentaRepository.java
+¦   ¦   ¦               ¦           
+¦   ¦   ¦               +---service
+¦   ¦   ¦                       AnaliticaService.java
+¦   ¦   ¦                       EmailService.java
+¦   ¦   ¦                       PdfGeneratorService.java
+¦   ¦   ¦                       
+¦   ¦   +---resources
+¦   ¦       ¦   application.properties
+¦   ¦       ¦   
+¦   ¦       +---static
+¦   ¦       +---templates
+¦   +---test
+¦       +---java
+¦           +---com
+¦               +---los_patos
+¦                   +---restaurant
+¦                           RestaurantApplicationTests.java
+¦                           
++---static
+¦   ¦   best_model.joblib
+¦   ¦   reporte_demanda.docx
+¦   ¦   reporte_demanda.pdf
+¦   ¦   reporte_demanda.xlsx
+¦   ¦   
+¦   +---img
+¦           confusion_matrix.png
+¦           heatmap_corr.png
+¦           roc_curve.png
+¦           
++---__pycache__
+        auth.cpython-310.pyc
+        auth.cpython-313.pyc
+        database.cpython-310.pyc
+        database.cpython-313.pyc
+        email_service.cpython-310.pyc
+        email_service.cpython-313.pyc
+        main.cpython-310.pyc
+        main.cpython-311.pyc
+        main.cpython-313.pyc
+        models.cpython-310.pyc
+        models.cpython-311.pyc
+        models.cpython-313.pyc
+        predicts_pipeline.cpython-310.pyc
+        predicts_pipeline.cpython-313.pyc
+        schemas.cpython-310.pyc
+        schemas.cpython-311.pyc
+        schemas.cpython-313.pyc
+        __init__.cpython-310.pyc
+        __init__.cpython-313.pyc
+        

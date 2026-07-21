@@ -51,7 +51,7 @@ def register(dto: UsuarioRegister, db: Session = Depends(get_db)):
         email=dto.email,
         password_hash=get_password_hash(dto.password),
         rol_sistema="empleado", # default system role
-        estado_activos=True,
+        estado_activo=True,
         fecha_creacion=datetime.now()
     )
     
