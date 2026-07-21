@@ -33,7 +33,10 @@ st.set_page_config(
 )
 
 # --- Conexión a la base de datos ---
-DATABASE_URL = "postgresql://postgres:76858382@localhost:5432/los_patos"
+DATABASE_URL = os.getenv(
+    "DATABASE_URL",
+    "postgresql://postgres:76858382@localhost:5432/los_patos"
+)
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
