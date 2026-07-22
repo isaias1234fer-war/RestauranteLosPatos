@@ -1,12 +1,12 @@
-const getApiBase = () => {
-  if (typeof window !== "undefined") {
-    return `http://${window.location.hostname}:8000/api`;
-  }
-  return "http://localhost:8000/api";
-};
+// ========== NUEVA DEFINICIÓN DE API_BASE ==========
+const API_BASE =
+  import.meta.env.VITE_API_URL ||
+  "https://restaurantelospatos.onrender.com/api";
 
-export const API_BASE = getApiBase();
+export { API_BASE };
+// ==================================================
 
+// ========== INTERFACES ==========
 export interface Usuario {
   usuarioId: number;
   nombre: string;
@@ -110,6 +110,7 @@ export interface KpisResponse {
   ventas_por_cliente?: { cliente: string; total: number }[];
 }
 
+// ========== FUNCIÓN REQUEST ==========
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
   const headers = {
     "Content-Type": "application/json",
@@ -129,6 +130,7 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
   return response.json() as Promise<T>;
 }
 
+// ========== OBJETO API ==========
 export const api = {
   auth: {
     login: (username: string, password: string) =>
