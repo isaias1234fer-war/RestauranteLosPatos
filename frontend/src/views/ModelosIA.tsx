@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { 
   TrendingUp, 
   Zap, 
@@ -8,7 +8,6 @@ import {
   Info, 
   ChevronDown, 
   ChevronRight, 
-  Download
 } from "lucide-react";
 
 export const ModelosIA: React.FC = () => {
